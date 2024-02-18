@@ -113,7 +113,7 @@ a, button {
 	text-align: center;
 }
 .head-container {
-	margin-top: 245px;
+	margin-top: 170px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -153,6 +153,7 @@ a, button {
 .svg-image img{
 	width: 500px;
 	filter: drop-shadow(0 20px 10px rgba(0,0,0,0.2));
+	border-radius: 112px;
 }
 
 /* SIDE MENU */
