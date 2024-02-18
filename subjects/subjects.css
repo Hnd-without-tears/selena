@@ -20,11 +20,11 @@ body {
   width: 5px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #fa8f37;
+  background: #0e1db0;
   border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background:  #fcb721; 
+  background:  #868fdf; 
 }
 
 /*NAVIGATION BAR*/
@@ -76,13 +76,13 @@ body {
 
 .nav ul li a:hover
 {
-	color: #fa8f37;
+	color: #0e1db0;
 }
 
 .nav button
 {
 	padding: 9px 25px;
-	background: linear-gradient(to right, #fa8f37, #fcb721);
+	background: linear-gradient(to right, #0e1db0, #868fdf);
 	color: #fff;
 	border: none;
 	border-radius: 5px;
@@ -111,7 +111,7 @@ body {
 	width: 300px;
 	border: none;
 	outline: none;
-	border-bottom: 2px solid #fa8f37;
+	border-bottom: 2px solid #0e1db0;
 	padding: 9px;
 }
 .nav .search button
@@ -174,7 +174,7 @@ body {
 	width: 100%;
 	padding: 20px;
 	border-radius: 50px;
-	border: 1px solid #fa8f37;
+	border: 1px solid #0e1db0;
 	font-size: 15px;
 	color: #272529;
 	font-family: cursive;
@@ -182,7 +182,7 @@ body {
 }
 
 .cbox .det a:hover{
-	background: linear-gradient(to right, #fa8f37, #fcb721);
+	background: linear-gradient(to right, #0e1db0, #868fdf);
 	color: white;
 }
 
@@ -212,7 +212,7 @@ body {
 	margin: 10px;
 	width: 300px;
 	height: 200px;
-	background: linear-gradient(to right, #fa8f37, #fcb721);
+	background: linear-gradient(to right, #0e1db0, #868fdf);
 	border-radius: 10px;
 	box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
@@ -279,7 +279,7 @@ body {
 	margin: 20px;
 	width: 300px;
 	height: 160px;
-	background: linear-gradient(to right, #fa8f37, #fcb721);
+	background: linear-gradient(to right, #0e1db0, #868fdf);
 	border-radius: 10px;
 }
 .dcard2:hover .fpart2 img {
@@ -317,13 +317,13 @@ body {
 	display: flex;
 }
 .click-me a {
-	color:  #fcb721;
+	color:  #868fdf;
 	text-decoration: none;
 	transition-duration: .5s;
 	padding: 10px;
 }
 .click-me a:hover {
-	background:  #fcb721;
+	background:   #868fdf;
 	color: #fff;
 }
 
@@ -372,13 +372,13 @@ body {
 }
 .download a{
 	padding: 5px 10px;
-	color: #fcb721;
+	color:  #868fdf;
 	font-size: .8em;
 	visibility: hidden;
 }
 .download:hover a{
 	transition: .5s ease;
-	background:  #fcb721;
+	background:   #868fdf;
 	color: #fff;
 }
 
@@ -404,7 +404,7 @@ body {
 }
 
 .sample ul li a {
-	color: #fa8f37;
+	color: #868fdf;
 	width: 300px;
 	font-size: 20px;
 }
@@ -453,7 +453,7 @@ footer .right-col h1{
 footer .border{
 	width: 100px;
 	height: 4px;
-	background: linear-gradient(to right, #fa8f37, #fcb721);
+	background: linear-gradient(to right,#0e1db0, #868fdf);
 	margin: 2px;
 }
 
@@ -485,7 +485,7 @@ footer .btn {
 	padding: 18px 40px;
 	font-size: 16px;
 	color: #f1f1f1;
-	background: linear-gradient(to right, #fa8f37, #fcb721);
+	background: linear-gradient(to right, #0e1db0, #868fdf);
 	border: none;
 	font-weight: 700;
 	outline: none;
