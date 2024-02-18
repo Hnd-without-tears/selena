@@ -114,11 +114,19 @@ button {
   text-align: center;
 }
 .head-container {
+<<<<<<< HEAD
   margin-top: 245px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+=======
+	margin-top: 170px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+>>>>>>> e4895e5f833d579589183465341cced9649b03df
 }
 .quote {
   width: 600px;
@@ -151,9 +159,16 @@ button {
   color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
 }
+<<<<<<< HEAD
 .svg-image img {
   width: 500px;
   filter: drop-shadow(0 20px 10px rgba(0, 0, 0, 0.2));
+=======
+.svg-image img{
+	width: 500px;
+	filter: drop-shadow(0 20px 10px rgba(0,0,0,0.2));
+	border-radius: 112px;
+>>>>>>> e4895e5f833d579589183465341cced9649b03df
 }
 
 /* SIDE MENU */
