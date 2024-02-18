@@ -895,7 +895,7 @@ footer .btn:hover {
     width: 90%;
   }
   .title {
-    margin-top: 0px;
+    margin-top: 120px;
   }
   .diffSection .content {
     padding: 10px 44px;
@@ -913,6 +913,9 @@ footer .btn:hover {
   }
   .about-content .side-image img {
     width: 592px;
+  }
+  head-container {
+    margin-top: 177px;
   }
 }
 @media screen and (max-width: 700px) {
