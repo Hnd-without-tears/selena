@@ -912,11 +912,14 @@ footer .btn:hover {
     width: 100%;
   }
   .about-content .side-image img {
-    width: 592px;
+    width: 100%;
   }
   head-container {
     margin-top: 177px;
   }
+  .side-image {
+    width: 100%;
+}
 }
 @media screen and (max-width: 700px) {
   footer .btn {
