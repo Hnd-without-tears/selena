@@ -114,7 +114,7 @@ button {
   text-align: center;
 }
 .head-container {
-  margin-top: 245px;
+  margin-top: 215px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -152,9 +152,9 @@ button {
   cursor: pointer;
 }
 .svg-image img {
-  width: 500px;
+  width: 639px;
   filter: drop-shadow(0 20px 10px rgba(0, 0, 0, 0.2));
-  border-radius: 140px;
+  border-radius: 14px;
 }
 
 /* SIDE MENU */
@@ -406,7 +406,7 @@ button {
   background: #fff;
 }
 .totalcard .card {
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow:inset 0 0 10px rgba(0, 0, 0, 0), 0 0 10px rgba(0, 0, 0, 0.04);
 }
 .card:nth-child(1) {
   border-top: 5px solid green;
