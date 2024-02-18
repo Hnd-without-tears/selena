@@ -919,7 +919,28 @@ footer .btn:hover {
   }
   .side-image {
     width: 100%;
-}
+  }
+  .contact-input {
+    margin-right: 8px;
+    width: 158px;
+  }
+  .contact-input {
+    width: 158px;
+  }
+  .totalcard .card {
+    margin-top: 10px;
+  }
+  .smbox span {
+    margin: 1%;
+    background: #fff;
+    /* box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.3); */
+    border-radius: 10px;
+    padding: 30px 50px;
+    cursor: pointer;
+  }
+  .extra p {
+    background-position: bottom;
+  }
 }
 @media screen and (max-width: 700px) {
   footer .btn {
