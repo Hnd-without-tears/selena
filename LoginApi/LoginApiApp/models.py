@@ -14,9 +14,9 @@ from django.db import models
 class Users(models.Model):
     userid = models.AutoField(db_column='UserID', primary_key=True)  # Field name made lowercase.
     username = models.CharField(db_column='Username', unique=True, max_length=50)  # Field name made lowercase.
-    password = models.CharField(db_column='Password', max_length=60)  # Field name made lowercase.
+    password = models.CharField(db_column='Password', max_length=100)  # Field name made lowercase.
     email = models.CharField(db_column='Email', unique=True, max_length=100)  # Field name made lowercase.
-    firstname = models.CharField(db_column='FirstName', max_length=50, blank=True, null=True)  # Field name made lowercase.
+    firstname = models.CharField(db_column='FirstName', max_length=100, blank=True, null=True)  # Field name made lowercase.
     lastname = models.CharField(db_column='LastName', max_length=50, blank=True, null=True)  # Field name made lowercase.
     createdat = models.DateTimeField(db_column='CreatedAt')  # Field name made lowercase.
     updatedat = models.DateTimeField(db_column='UpdatedAt')  # Field name made lowercase.
