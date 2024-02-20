@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.contrib.auth.models import AbstractUser
 # Create your models here.
 
 # class Post(models.Model):
@@ -14,7 +14,7 @@ from django.db import models
 class Users(models.Model):
     userid = models.AutoField(db_column='UserID', primary_key=True)  # Field name made lowercase.
     username = models.CharField(db_column='Username', unique=True, max_length=50)  # Field name made lowercase.
-    password = models.CharField(db_column='Password', max_length=100)  # Field name made lowercase.
+    password = models.CharField(db_column='Password', max_length=1000)  # Field name made lowercase.
     email = models.CharField(db_column='Email', unique=True, max_length=100)  # Field name made lowercase.
     firstname = models.CharField(db_column='FirstName', max_length=100, blank=True, null=True)  # Field name made lowercase.
     lastname = models.CharField(db_column='LastName', max_length=50, blank=True, null=True)  # Field name made lowercase.
@@ -23,5 +23,5 @@ class Users(models.Model):
     role = models.CharField(db_column='Role', max_length=5, blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
-        managed = False
+        # managed = False
         db_table = 'users'
