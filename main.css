@@ -6,7 +6,7 @@
   min-width: 0;
 }
 :root {
-  --primary: #266e7c;
+  --primary: rgb(123, 174, 216);
   --primary-light: #bbe5ee;
   --dark: #343841;
 }
